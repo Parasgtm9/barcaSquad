@@ -1,0 +1,70 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Marc-André ter Stegen",
+      "position": "Goalkeeper",
+      "src": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/TER%20STEGEN_2020.jpg"
+    },
+    {
+      "id": 2,
+      "text": "Sergiño Dest",
+      "position": "Right back",
+      "src": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/DEST.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Gerard Piqué",
+      "position": "Center back",
+      "src": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/PIQU%C3%89_2020.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Ronald Araújo",
+      "position": "Center back",
+      "src": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/ARA%C3%9AJO.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Sergio Busquets",
+      "position": "Defensive midfielder",
+      "src": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/SERGIO%20BUSQUETS_2020.jpg"
+    },
+    {
+      "id": 6,
+      "text": "Ricard Puig",
+      "position": "Center midfielder",
+      "src": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/RIQUI%20PUIG_2020.jpg"
+    },
+    {
+      "id": 7,
+      "text": "Ousmane Dembelé",
+      "position": "Right winger",
+      "src": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/DEMB%C3%89L%C3%89.jpg"
+    },
+    {
+      "id": 9,
+      "text": "Memphis Depay",
+      "position": "Left winger",
+      "src": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/DE%20PAY%20(RETRAT).jpg"
+    },
+    {
+      "id": 10,
+      "text": "Anssumane Fati",
+      "position": "Striker",
+      "src": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/ANSU%20FATI.jpg"
+    },
+    {
+      "text": "Philippe Coutinho",
+      "id": 14,
+      "position": "Attacking midfielder",
+      "src": "https://www.fcbarcelona.com/photo-resources/2021/08/17/77ceb037-8f49-4902-a350-bb885a6a5d49/mini_14-PHILIPPE-COUTINHO-1A-EQUIPACIO-004.png?width=670&height=790"
+    },
+    {
+      "text": "Frankie De jong",
+      "id": 21,
+      "position": "Center Midfielder",
+      "src": "https://www.fcbarcelona.com/photo-resources/2021/08/17/e8133f34-74f7-40b0-9204-8730cba3e196/mini_21-FRENKIE-DE-JONG-1A-EQUIPACIO-003.png?width=670&height=790"
+    }
+  ]
+}
