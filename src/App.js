@@ -21,21 +21,23 @@ function App() {
     }, [])
 
     const fetchTasks = async () => {
-        const res = await fetch('http://localhost:5000/tasks')  
+        const res = await fetch('https://nodejsonapigauti.herokuapp.com/tasks')  
         const data = await res.json();
-        return data
+        console.log(data)
+        return data.tasks
     }
 
     // Add task 
     const addTask = async (task) => {
-        const res = await fetch('http://localhost:5000/tasks', {
+        const res = await fetch('https://nodejsonapigauti.herokuapp.com/tasks', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
             },
             body: JSON.stringify(task)
         })
-        const data = await res.json()
+        const data = await res.json().tasks
+        console.log(data)
         setTasks([...tasks, data])
     }
 
