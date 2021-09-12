@@ -21,29 +21,29 @@ function App() {
     }, [])
 
     const fetchTasks = async () => {
-        const res = await fetch('https://nodejsonapigauti.herokuapp.com/tasks')  
+        const res = await fetch('https://api-gauti.herokuapp.com/tasks')  
         const data = await res.json();
         console.log(data)
-        return data.tasks
+        return data
     }
 
     // Add task 
     const addTask = async (task) => {
-        const res = await fetch('https://nodejsonapigauti.herokuapp.com/tasks', {
+        const res = await fetch('https://api-gauti.herokuapp.com/task', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
             },
             body: JSON.stringify(task)
         })
-        const data = await res.json().tasks
+        const data = await res.json()
         console.log(data)
         setTasks([...tasks, data])
     }
 
     // Delete task
     const deleteTask = (id) => {
-        fetch(`http://localhost:5000/tasks/${id}`, {
+        fetch(`https://api-gauti.herokuapp.com/task/${id}`, {
             method: 'DELETE'
         })
         setTasks(tasks.filter((task) => task.id !== id))
