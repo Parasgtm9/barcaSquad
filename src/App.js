@@ -51,7 +51,7 @@ function App() {
 
     return (
         <div className="container">
-            <Header title="Squad 2021-22" onAdd={() => setShowAdd(!showAddTask)} showAddTask={showAddTask} />
+            <Header title="Squad 2022-23" onAdd={() => setShowAdd(!showAddTask)} showAddTask={showAddTask} />
             {showAddTask && <AddTask onAdd={addTask}/>}
             {tasks.length > 0 ? <Tasks tasks={tasks} onDelete = {deleteTask} /> : 'Club bankrupted'}
         </div>
